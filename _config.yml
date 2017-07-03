@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: flyingpig的博客 
+title: flyingpig
 subtitle: 
 description: 擅长各项前端技能，研究移动端开发与前端性能。非专业视觉设计师。此为博客一枚。 
 author: bangbang 
@@ -12,7 +12,8 @@ keywords: "hexo,yilia,前端,js,jquery,javascript,html5,开发者,程序猿,程�
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: //www.iambangbang.club
+# url: //www.iambangbang.club
+url: //flyingpig2016.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -123,14 +124,14 @@ jsonContent:
     title: true
     date: true
     path: true
-    text: true
+    text: false
     raw: false
-    content: false
+    content: true
     slug: false
     updated: false
-    comments: false
+    comments: true
     link: false
     permalink: false
     excerpt: false
-    categories: false
+    categories: true
     tags: true
