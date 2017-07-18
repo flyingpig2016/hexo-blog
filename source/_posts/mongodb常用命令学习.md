@@ -10,6 +10,7 @@ comments: true
 ###  **1. 展示数据库：**`show dbs`；
 ### **2. 显示当前数据库对象或集合：**`db`;
 ### **3. 连接到一个指定的数据库:**  `use`;
+<!--more-->
 ### **4. 关系型数据库和mongodb的术语：**
 ![这里写图片描述](http://img.blog.csdn.net/20170610182030359?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZmx5aW5ncGlnMjAxNg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
@@ -20,7 +21,8 @@ comments: true
 {"site":"www.runoob.com","name":"菜鸟教程","num":5}
 ```
 &emsp;&emsp;集合存在于数据库中，集合没有固定的结构，这意味着你在对集合可以插入不同格式和类型的数据，但通常情况下我们插入集合的数据都会有一定的关联性。
-### **6.创建myblog数据库：**`use myblog`,此时还不能用`show dbs`来查看，因为没有数据。当我们插入数据的时候才能看到数据列表：`db.myblog.insert({name:'bangbang'})` ;
+### **6.创建myblog数据库：
+**`use myblog`,此时还不能用`show dbs`来查看，因为没有数据。当我们插入数据的时候才能看到数据列表：`db.myblog.insert({name:'bangbang'})` ;
 
 ### **7.删除base02数据库：**
 	首先，我们先创建一个base02数据库,并插入一条数据，**注意：要想显示数据库，需要至少插入一个文档进去。**
